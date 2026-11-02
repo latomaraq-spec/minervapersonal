@@ -1,3 +1,9 @@
+## Actualización de la tabla de resultados
+
+La premiación mantiene a Lydia como ganadora por indicación de la organización. La tabla consulta **todos** los participantes y sus votos reales mediante `list_public_entries`, ordenados de mayor a menor, sin cifras fijas ni filtros de finalistas. Solo para el título ganador se muestra el nombre Lydia, confirmado por la organización. Las consultas no modifican datos. Para congelar los votos también en el servidor, ejecuta `supabase/close-contest.sql`; no se ejecutó desde esta sesión. Si se eliminaron participantes en Supabase, la tabla no puede recuperar esos registros.
+
+Las notas sobre puntajes fijos que siguen describen la versión anterior.
+
 # Premiación: Lydia es la ganadora
 
 La página presenta en grande a Lydia, su calaverita completa y la tabla final confirmada por la organización: **Lydia 10 votos; Oswaldo 9 votos**. Los resultados están guardados en `index.html`, no dependen de la conexión con Supabase y no cambian por nuevos votos. La página no carga scripts, formularios ni botones para votar.

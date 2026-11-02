@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#2e003e">
 <title>¡Lydia es la ganadora! · Calaveritas Polymershapes</title>
-<link rel="stylesheet" href="styles.css?v=ganadora1">
+<link rel="stylesheet" href="styles.css?v=resultados2">
+<script src="config.js" defer></script><script src="app.js?v=resultados2" defer></script>
 </head>
 <body>
 <header><nav class="wrap"><a href="#" class="brand"><img src="assets/Polymershapes_White_RGB.png?v=2" alt="Polymershapes" width="280" height="50" style="max-width:100%;height:auto;display:block;"></a><a href="#resultados">Ver puntajes ↗</a></nav></header>
@@ -46,9 +47,9 @@
 </div><div class="paper-footer">POLYMERSHAPES · DÍA DE MUERTOS</div></article>
 </section>
 <section id="resultados" class="gallery results" aria-labelledby="results-heading">
-<div class="gallery-heading"><div><p class="eyebrow">El resultado del desempate</p><h2 id="results-heading">Puntajes obtenidos</h2></div></div>
-<p id="results-status" class="muted" role="status">Resultados finales · Lydia: 10 votos · Oswaldo: 9 votos.</p>
-<div class="table-wrap"><table class="scores"><caption>Resultados finales del desempate</caption><thead><tr><th scope="col">Participante</th><th scope="col">Calaverita</th><th scope="col">Votos</th></tr></thead><tbody id="scores-body"><tr class="winner-row"><th scope="row">Lydia <span class="winner-chip">Ganadora</span></th><td>LA CALACA LLEGÓ A POLYMERSHAPES ZAPOPAN</td><td data-score="lydia">10</td></tr><tr><th scope="row">Oswaldo Arteaga Figueroa</th><td>Ni la huesuda aguanto el turno</td><td data-score="oswaldo">9</td></tr></tbody></table></div>
+<div class="gallery-heading"><div><p class="eyebrow">Todos los participantes</p><h2 id="results-heading">Puntajes obtenidos</h2></div><button id="refresh" class="btn outline" type="button">Actualizar puntajes</button></div>
+<p id="results-status" class="muted" role="status">Consultando los puntajes de todos los participantes…</p>
+<div class="table-wrap"><table class="scores"><caption>Votos registrados de todos los participantes</caption><thead><tr><th scope="col">Participante</th><th scope="col">Calaverita</th><th scope="col">Votos</th></tr></thead><tbody id="scores-body"><tr><td colspan="3">Cargando resultados de Supabase…</td></tr></tbody></table></div>
 </section>
 <section class="thank-you"><p class="eyebrow">Nuestra gente le da vida a la tradición</p><h2>¡Gracias por participar!</h2><p>A quienes escribieron, leyeron y votaron: gracias por compartir su creatividad, sus risas y el espíritu del Día de Muertos.</p><p class="ornament" aria-hidden="true">✿ ✦ ✿</p></section>
 </main><footer class="wrap">Polymershapes México · Concurso de Calaveritas Literarias · ¡Felicidades, Lydia!</footer>
