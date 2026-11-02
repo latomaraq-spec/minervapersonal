@@ -2,20 +2,15 @@
 <html lang="es">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#2e003e">
-<title>Calaveritas Literarias · Polymershapes</title>
-<link rel="stylesheet" href="styles.css"><script src="config.js" defer></script><script src="app.js" defer></script>
+<title>Muerte súbita · Desempate de Calaveritas · Polymershapes</title>
+<link rel="stylesheet" href="styles.css?v=desempate1"><script src="config.js" defer></script><script src="app.js?v=desempate1" defer></script>
 </head>
 <body>
 <header><nav class="wrap"><a href="#" class="brand"><img src="assets/Polymershapes_White_RGB.png?v=2" alt="Polymershapes" width="280" height="50" style="max-width:100%;height:auto;display:block;"></a><a href="#galeria">Leer calaveritas ↗</a></nav></header>
 <div class="papel" aria-hidden="true">✿ ✦ ✿ ✦ ✿ ✦ ✿ ✦ ✿ ✦ ✿ ✦ ✿ ✦ ✿ ✦ ✿</div>
 <main class="wrap">
-<section class="hero"><p class="eyebrow">Entre versos, flores y tradiciones</p><h1>Concurso de<br><em>Calaveritas Literarias</em></h1><p>Polymershapes · Día de Muertos</p><p>La creatividad nunca muere. Comparte tus versos y celebra el ingenio de nuestra gente.</p></section>
+<section class="hero"><p class="eyebrow">La gran final · Calaveritas literarias</p><div class="final-badge">✦ RONDA DE DESEMPATE ✦</div><h1>¡Muerte súbita!<br><em>Dos calaveritas,<br>un último duelo.</em></h1><p>Polymershapes · Día de Muertos</p><p>La Huesuda aún no decide a quién llevarse la corona. Lee a las dos finalistas y apoya a tu favorita en este desempate.</p><p class="vote-preserved">Los votos acumulados se conservan y la votación continúa.</p><a class="btn final-cta" href="#galeria">Conoce a las finalistas ↓</a></section>
 <div id="config-warning" class="panel" hidden>La galería compartida todavía no está conectada. La organización debe configurar Supabase siguiendo README.md.</div>
-<section class="workspace" aria-label="Creador de calaveritas">
-<div class="panel"><p class="eyebrow">01 · Que vivan tus versos</p><h2>Invita a la Catrina</h2><p class="muted">Escribe algo ingenioso, respetuoso y muy tuyo.</p>
-<form id="creator"><label for="title">Título</label><input id="title" required maxlength="90" placeholder="La flaca pidió cotización"><label for="author">Nombre o seudónimo público</label><input id="author" required maxlength="60" placeholder="¿Quién firma estos versos?"><label for="body">Tu calaverita</label><textarea id="body" required maxlength="4000" rows="9" placeholder="Andaba la flaca un día…" aria-describedby="chars"></textarea><p id="chars" class="muted small">0 / 4000</p><button type="submit" class="btn full">Generar Vista Previa ✦</button></form></div>
-<div><p class="eyebrow">02 · Tu hoja temática</p><div id="preview"></div><div class="publish-row"><p id="preview-note" class="muted small">Genera tu vista previa antes de publicar.</p><button class="btn outline" id="publish" type="button" disabled>Publicar calaverita ↗</button></div></div>
-</section>
-<section id="galeria" class="gallery"><div class="gallery-heading"><div><p class="eyebrow">El talento de nuestra gente</p><h2>Versos que dejan huella</h2></div><button id="refresh" class="btn outline" type="button">Actualizar galería</button></div><p id="gallery-status" class="muted" role="status">Cargando las calaveritas del equipo…</p><div id="entries" class="grid"></div></section>
-</main><footer class="wrap">Polymershapes México · Concurso interno · Participación abierta · Un voto por navegador y calaverita. Puedes retirarlo.</footer><p id="message" role="status" aria-live="polite"></p>
+<section id="galeria" class="gallery"><div class="gallery-heading"><div><p class="eyebrow">Solo quedan dos finalistas</p><h2>El duelo de las calaveritas</h2></div><button id="refresh" class="btn outline" type="button">Actualizar votos</button></div><p id="gallery-status" class="muted" role="status">Cargando finalistas y votos acumulados…</p><div id="entries" class="grid finalists"></div></section>
+</main><footer class="wrap">Polymershapes México · Desempate de Calaveritas · Votos acumulados conservados · Un voto por navegador y calaverita. Puedes retirarlo.</footer><p id="message" role="status" aria-live="polite"></p>
 </body></html>

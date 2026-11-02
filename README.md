@@ -1,3 +1,5 @@
+> **Ronda actual: Muerte súbita / desempate.** La página muestra únicamente «Ni la huesuda aguanto el turno» y «LA CALACA LLEGÓ A POLYMERSHAPES ZAPOPAN», leyendo sus textos y votos originales de Supabase. El formulario de publicaciones está oculto. No se borran otras entradas ni se reinician votos; el identificador del navegador y las reglas de votación se conservan. El filtro es de presentación y no bloquea por API las publicaciones ni los votos de otras entradas. No hace falta ejecutar SQL para este cambio. Las instrucciones generales de publicación siguientes corresponden al creador original.
+
 # Concurso público de Calaveritas · Polymershapes
 
 Cualquiera puede leer, publicar y votar. No hay inicio de sesión, correo, contraseña, códigos ni registro. GitHub Pages aloja la página y Supabase guarda los datos compartidos entre visitantes.
