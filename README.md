@@ -1,3 +1,11 @@
+# Premiación: Lydia es la ganadora
+
+La página presenta en grande a Lydia, su calaverita completa y la tabla final confirmada por la organización: **Lydia 10 votos; Oswaldo 9 votos**. Los resultados están guardados en `index.html`, no dependen de la conexión con Supabase y no cambian por nuevos votos. La página no carga scripts, formularios ni botones para votar.
+
+No se borraron ni modificaron datos de Supabase. Para bloquear también las escrituras desde páginas antiguas y llamadas directas, ejecuta `supabase/close-contest.sql` en el SQL Editor. No se ejecutó automáticamente: el repositorio solo tiene la clave pública. No vuelvas a ejecutar `schema.sql` después del cierre, porque vuelve a habilitar publicaciones y votos.
+
+Las instrucciones siguientes son históricas, para la versión previa del concurso abierto.
+
 > **Ronda actual: Muerte súbita / desempate.** La página muestra únicamente «Ni la huesuda aguanto el turno» y «LA CALACA LLEGÓ A POLYMERSHAPES ZAPOPAN», leyendo sus textos y votos originales de Supabase. El formulario de publicaciones está oculto. No se borran otras entradas ni se reinician votos; el identificador del navegador y las reglas de votación se conservan. El filtro es de presentación y no bloquea por API las publicaciones ni los votos de otras entradas. No hace falta ejecutar SQL para este cambio. Las instrucciones generales de publicación siguientes corresponden al creador original.
 
 # Concurso público de Calaveritas · Polymershapes

@@ -2,15 +2,54 @@
 <html lang="es">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#2e003e">
-<title>Muerte súbita · Desempate de Calaveritas · Polymershapes</title>
-<link rel="stylesheet" href="styles.css?v=desempate1"><script src="config.js" defer></script><script src="app.js?v=desempate1" defer></script>
+<title>¡Lydia es la ganadora! · Calaveritas Polymershapes</title>
+<link rel="stylesheet" href="styles.css?v=ganadora1">
 </head>
 <body>
-<header><nav class="wrap"><a href="#" class="brand"><img src="assets/Polymershapes_White_RGB.png?v=2" alt="Polymershapes" width="280" height="50" style="max-width:100%;height:auto;display:block;"></a><a href="#galeria">Leer calaveritas ↗</a></nav></header>
+<header><nav class="wrap"><a href="#" class="brand"><img src="assets/Polymershapes_White_RGB.png?v=2" alt="Polymershapes" width="280" height="50" style="max-width:100%;height:auto;display:block;"></a><a href="#resultados">Ver puntajes ↗</a></nav></header>
 <div class="papel" aria-hidden="true">✿ ✦ ✿ ✦ ✿ ✦ ✿ ✦ ✿ ✦ ✿ ✦ ✿ ✦ ✿ ✦ ✿</div>
 <main class="wrap">
-<section class="hero"><p class="eyebrow">La gran final · Calaveritas literarias</p><div class="final-badge">✦ RONDA DE DESEMPATE ✦</div><h1>¡Muerte súbita!<br><em>Dos calaveritas,<br>un último duelo.</em></h1><p>Polymershapes · Día de Muertos</p><p>La Huesuda aún no decide a quién llevarse la corona. Lee a las dos finalistas y apoya a tu favorita en este desempate.</p><p class="vote-preserved">Los votos acumulados se conservan y la votación continúa.</p><a class="btn final-cta" href="#galeria">Conoce a las finalistas ↓</a></section>
-<div id="config-warning" class="panel" hidden>La galería compartida todavía no está conectada. La organización debe configurar Supabase siguiendo README.md.</div>
-<section id="galeria" class="gallery"><div class="gallery-heading"><div><p class="eyebrow">Solo quedan dos finalistas</p><h2>El duelo de las calaveritas</h2></div><button id="refresh" class="btn outline" type="button">Actualizar votos</button></div><p id="gallery-status" class="muted" role="status">Cargando finalistas y votos acumulados…</p><div id="entries" class="grid finalists"></div></section>
-</main><footer class="wrap">Polymershapes México · Desempate de Calaveritas · Votos acumulados conservados · Un voto por navegador y calaverita. Puedes retirarlo.</footer><p id="message" role="status" aria-live="polite"></p>
+<section class="hero winner-hero" aria-labelledby="winner-heading">
+<p class="eyebrow">Concurso de Calaveritas Literarias · Polymershapes</p>
+<div class="final-badge">✦ TENEMOS GANADORA ✦</div>
+<div class="winner-medal" aria-hidden="true">♛</div>
+<h1 id="winner-heading">¡La ganadora es<br><em>Lydia!</em></h1>
+<p>Por su calaverita <strong>«LA CALACA LLEGÓ A POLYMERSHAPES ZAPOPAN»</strong></p>
+<p>Su ingenio puso a rimar a la sucursal entera y hasta a la Muerte hizo trabajar. ¡Felicidades, Lydia!</p>
+</section>
+<section class="winning-work" aria-labelledby="poem-title">
+<article class="paper winner-paper"><div class="ornament" aria-hidden="true">✿ ✦ ✿</div><p class="winner-label">CALAVERITA GANADORA</p><h2 id="poem-title">LA CALACA LLEGÓ A POLYMERSHAPES ZAPOPAN</h2><p class="author">— Lydia —</p><div class="winning-poem">
+<p>La Calaca llegó a Zapopan, con su guadaña y su lista, dijo: Vengo por todo el equipo, ¡a ver quién se me resiste!</p>
+<p>Primero buscó a Héctor, el jefe de la sucursal: ¡Vengo por ti y por tu gente, ya los quiero descansar!</p>
+<p>Héctor le dijo muy serio: ¡No me vengas a apurar! Tengo pendientes y ventas, Que proyectos tienes para cerrar?</p>
+<p>A Lydia encontró en la ciudad, visitando a un cliente, la Flaca quiso hacerle un pedido y Lydia respondió sonriente:</p>
+<p>¡Primero mándame la OC, que el ISO me lo pide y me van a regañar! Aunque seas la mismísima Muerte, ¡sin orden no puedo facturar!</p>
+<p>Ángeles andaba en sus ventas, con clientes por atender, la Flaca quiso llevársela, ¡pero tenía más ventas que hacer!</p>
+<p>Alan, al ver entrar a un cliente, comienza luego a gritar: ¡JALA, JALA, JALA, JALA! ¡Ya lo escuchan hasta en el almacén!</p>
+<p>Y cuando el cliente se va, otra vez lo oyen gritar: ¡EMPUJA, EMPUJA, EMPUJA! ¡a la calaca Alan no la deja concentrar!</p>
+<p>Sergio revisaba diseños de FLEX, cotizaciones y pedidos sin parar, la Calaca lo veía tan estresado que hasta miedo le daba preguntar.</p>
+<p>¡Ya no puedo con tanto trabajo, necesito un aumento salarial! le gritó Sergio a la Muerte, ¡o me vas a tener que llevar!</p>
+<p>La Flaca le dijo riendo: ¡No te puedo aumentar el sueldo, corazón, pero si sigues esperando ese aumento, te hago gerente del panteón!</p>
+<p>Adriana estaba estresada, con la auditoría del ISO encima, revisando todos los papeles y buscando hasta la última firma.</p>
+<p>La Flaca quiso saludarla, pero Adriana empezó a sudar: ¡No me muevas esos documentos, que la auditoría va a llegar!</p>
+<p>Francisco estaba en las máquinas, con el láser y el router trabajando, la Calaca pidió un ataúd y él ya se lo estaba fabricando.</p>
+<p>Gustavo, jefe de almacén, muy tranquilo en su operación, pero Sonia, su clienta consentida, le robaba toda la atención.</p>
+<p>La Flaca se puso celosa y le reclamó sin compasión: ¡Gustavo, deja a Sonia un rato, que también quiero tu atención!</p>
+<p>Oswaldo y Ale en el almacén, entre placas y material, la Muerte pidió que la surtieran ¡pero no había existencia disponible en el lugar!</p>
+<p>Tomás llegó muy sonriente, cantando a todo pulmón, la Calaca subió a la camioneta y le pidió otra canción.</p>
+<p>Tomás cantaba tan fuerte que hasta los muertos despertó, ¡y en vez de llevárselo al panteón, de vocalista lo contrató!</p>
+<p>Luis llegó con las camionetas y sus choferes a apoyar, pero al ver llegar a la Flaca ¡hasta se quiso regresar!</p>
+<p>Y el Buki en la vigilancia, muy tranquilo en su lugar, la Calaca puso una canción ¡y lo invitó a bailar!</p>
+<p>La Muerte, ya desesperada, no sabía ni qué hacer: ¡Entre ventas, almacén y auditorías, aquí no se puede ni morir en paz!</p>
+<p>Mejor me regreso al panteón, allá sí puedo descansar, ¡porque en Polymershapes Zapopan hasta la Muerte tiene que facturar!</p>
+<p>Y así se fue la Calaca, sin llevarse a ningún trabajador, ¡porque salió más estresada que Adriana con el auditor!</p>
+</div><div class="paper-footer">POLYMERSHAPES · DÍA DE MUERTOS</div></article>
+</section>
+<section id="resultados" class="gallery results" aria-labelledby="results-heading">
+<div class="gallery-heading"><div><p class="eyebrow">El resultado del desempate</p><h2 id="results-heading">Puntajes obtenidos</h2></div></div>
+<p id="results-status" class="muted" role="status">Resultados finales · Lydia: 10 votos · Oswaldo: 9 votos.</p>
+<div class="table-wrap"><table class="scores"><caption>Resultados finales del desempate</caption><thead><tr><th scope="col">Participante</th><th scope="col">Calaverita</th><th scope="col">Votos</th></tr></thead><tbody id="scores-body"><tr class="winner-row"><th scope="row">Lydia <span class="winner-chip">Ganadora</span></th><td>LA CALACA LLEGÓ A POLYMERSHAPES ZAPOPAN</td><td data-score="lydia">10</td></tr><tr><th scope="row">Oswaldo Arteaga Figueroa</th><td>Ni la huesuda aguanto el turno</td><td data-score="oswaldo">9</td></tr></tbody></table></div>
+</section>
+<section class="thank-you"><p class="eyebrow">Nuestra gente le da vida a la tradición</p><h2>¡Gracias por participar!</h2><p>A quienes escribieron, leyeron y votaron: gracias por compartir su creatividad, sus risas y el espíritu del Día de Muertos.</p><p class="ornament" aria-hidden="true">✿ ✦ ✿</p></section>
+</main><footer class="wrap">Polymershapes México · Concurso de Calaveritas Literarias · ¡Felicidades, Lydia!</footer>
 </body></html>
